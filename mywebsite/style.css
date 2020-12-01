@@ -22,7 +22,7 @@ body {
 
   #redHorizontalRule {
     width: 35px;
-    marign: 0px;
+    margin: 0px;
     border-color: red;
   }
 
@@ -32,7 +32,7 @@ body {
 
   #headshotImage {
     width: 300px;
-    marign-left: 50%;
+    margin-left: 50%;
   }
 
   #greetingWrapper {
@@ -78,7 +78,7 @@ body {
   }
   #redHorizontalLine {
     width: 35px;
-    marign: 0px;
+    margin: 0px;
     border-color: red;
   }
   
