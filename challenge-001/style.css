@@ -1,0 +1,168 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .standard-title {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  
+  .standard-button {
+    border: 1px solid;
+    border-radius: 8px;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: transparent;
+  }
+  
+  .standard-button:hover {
+    background-color: rgba(200, 77, 77, .5);
+    transform: rotate(360deg);
+    transition: all 5s ease-out;
+  }
+  
+  
+  .flex {
+    display: flex;
+    flex-direction: row;
+  }
+  /* END OF Global Styles */
+  
+  #hero-section {
+    min-height: 600px;
+  
+    background-image: url("https://images.pexels.com/photos/131616/pexels-photo-131616.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    color: white;
+    text-align: center;
+  }
+  
+  #hero-section a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  #hero-section header {
+    position: relative;
+    padding: 60px;
+  }
+  
+  #hero-section header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0 auto;
+    max-width: 50%;
+  }
+  
+  #hero-section header nav li {
+    margin: 0;
+    padding: 8px 16px;
+  }
+  
+  #hero-section div.logo {
+    position: absolute;
+    bottom: 0;
+  }
+  
+  #hero-section div.logo img {
+    width: 80px;
+    height: 80px;
+    border: 2px solid white;
+    border-radius: 80px;
+    position: relative;
+  }
+  
+  #hero-section div.logo::before {
+    content: "logo";
+    display: block;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+  }
+  
+  #hero-section .hero-button {
+    border: 1px solid white;
+    border-radius: 8px;
+    text-align: center;
+    padding: 8px 16px;
+  }
+  
+  /* Work Section */
+  #work-section {
+    padding: 60px;
+  
+    background-color: #f8f8f8;
+  
+    min-height: 600px;
+  }
+  
+  #work-section .standard-button {
+    border-color: #aeafb1;
+    color: #8f8f8f;
+    margin-top: 36px;
+  }
+  
+  #work-section .upper-container {
+    min-height: 300px;
+  }
+  
+  #work-section .section-description {
+    width: 35%;
+    height: 300px;
+  }
+  
+  #work-section .mockup-container {
+    width: 65%;
+    height: 300px;
+  }
+  
+  #work-section .lower-container {
+    justify-content: space-between;
+  }
+  
+  #work-section .lower-container .feature {
+    background-color: #ffffff;
+    width: 30%;
+    text-align: center;
+    padding: 8px 24px;
+    box-sizing: border-box;
+  }
+  
+  /* Images Section */
+  
+  #images-section .image-container {
+    max-width: 50%;
+    width: 50%;
+  }
+  
+  #images-section .image-container img {
+    max-width: 100%;
+  }
+  
+  /* Team Section */
+  #team-section {
+    text-align: center;
+    padding: 60px;
+  }
+  
+  #team-section .teammates-container {
+    justify-content: space-between;
+  }
+  
+  #team-section .teammates-container .teammate {
+    text-align: center;
+    border: 1px solid red;
+    min-width: 30%;
+  }
+  
+  
