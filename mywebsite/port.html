@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background-color: black;
+      }
+
+      #brandingImage {
+        width: 200px;
+        /*         height: ; */
+      }
+
+      #navlinks {
+        color: black;
+      }
+
+      #mainWrapper {
+        display: flex;
+        flex-direction: column;
+      }
+
+      #greetingTag {
+        color: red;
+      }
+
+      #redHorizontalRule {
+        width: 35px;
+        margin: 0px;
+        border-color: red;
+      }
+
+      #theTechCoachHeading {
+        font-size: 12px;
+      }
+
+      #headshotImage {
+        width: 300px;
+        margin-left: 50%;
+      }
+
+      #greetingWrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: stretch;
+        background-color: white;
+        width: 100%;
+        /*    padding-left:15px; */
+      }
+
+      #greetingDiv {
+        padding-left: 15px;
+      }
+
+      #viewAssetsWrapper {
+        display: flex;
+        flex-direction: row;
+        /*    justify-content:center; */
+      }
+      #viewResumeButton {
+        display: flex;
+        flex-direction: column;
+
+        background-color: #e71d36;
+        color: #ffffff;
+        line-height: 30px;
+        text-align: center;
+        padding: 10px;
+        flex-basis: 50%;
+      }
+
+      #viewPortfolioButton {
+        display: flex;
+        flex-direction: column;
+
+        background-color: #011526;
+        color: #ffffff;
+        line-height: 30px;
+        text-align: center;
+        padding: 10px;
+        flex-basis: 50%;
+      }
+      #redHorizontalLine {
+        width: 35px;
+        margin: 0px;
+        border-color: red;
+      }
+      
+      #mainContainer {
+        display: flex;
+      }
+      
+      #mainContainer #navWrapper {
+        background-color: #011526;
+        width: 30%;
+      }
+      
+      #mainContainer #mainWrapper {
+        background-color: #334352;
+        width: 70%;
+      }
+    </style>
+  </head>
+
+  <body id="myBody">
+    <div id="mainContainer">
+      <div id="navWrapper">
+        <p>
+          <img
+            id="brandingImage"
+            src="https://cdn.glitch.com/1cf2c8bd-5330-402b-b442-523f6a4ceedb%2FPrimordial-Pyramid.svg?v=1590281075381"
+          />
+        </p>
+        <ul id="navlinks">
+          <li>Home</li>
+          <li>About</li>
+          <li>Resume</li>
+          <li>Portfolio</li>
+        </ul>
+      </div>
+
+      <div id="mainWrapper">
+        <div id="greetingWrapper">
+          <div id="greetingdiv">
+            <p id="greetingTag">
+              Hi, I'm
+            </p>
+
+            <h1 id="unlockyourDreamsHeading">
+              Thru E's
+              <br />Eyes
+            </h1>
+
+            <hr id="redHorizontalRule" />
+
+            <h4 id="theTechCoachHeading">
+              Photographer
+            </h4>
+          </div>
+
+          <div di="headShotDiv">
+            <img
+              id="headshotImage"
+              src="https://cdn.glitch.com/1cf2c8bd-5330-402b-b442-523f6a4ceedb%2Fpexels-photo-738908.svg?v=1590282358848"
+            />
+          </div>
+        </div>
+        <!-- end of div#greetingWrapper -->
+
+        <div id="viewAssetsWrapper">
+          <div id="viewResumeButton">
+            View Resume
+          </div>
+          <div id="viewPortfolioButton">
+            View Portfolio
+          </div>
+        </div>
+        <!-- end of div#viewAssetsWrapper -->
+
+        <div id="PortfolioWrapper">
+          <h1 id="portfoiloHeading">
+            Portfolio
+          </h1>
+
+          <hr id="redHorizontalLine2" class="redHorizontalLine" />
+
+          <h4 id="PortfolioSubtext">
+            Portfolio
+          </h4>
+
+          <p>
+            My Photo here My Photo here My Photo here My Photo here My Photo
+            here My Photo here My Photo here My Photo here My Photo here My
+            Photo here My Photo here My Photo here My Photo here My Photo here
+            My Photo here My Photo here My Photo here My Photo here
+          </p>
+        </div>
+        <!-- /end of #PortfolioWrapper -->
+      </div>
+    </div>
+  </body>
+</html>

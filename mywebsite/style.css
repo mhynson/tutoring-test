@@ -1,0 +1,97 @@
+body {
+    background-color: black;
+  }
+
+  #brandingImage {
+    width: 200px;
+    /*         height: ; */
+  }
+
+  #navlinks {
+    color: black;
+  }
+
+  #mainWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #greetingTag {
+    color: red;
+  }
+
+  #redHorizontalRule {
+    width: 35px;
+    margin: 0px;
+    border-color: red;
+  }
+
+  #theTechCoachHeading {
+    font-size: 12px;
+  }
+
+  #headshotImage {
+    width: 300px;
+    margin-left: 50%;
+  }
+
+  #greetingWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    background-color: white;
+    width: 100%;
+    /*    padding-left:15px; */
+  }
+
+  #greetingDiv {
+    padding-left: 15px;
+  }
+
+  #viewAssetsWrapper {
+    display: flex;
+    flex-direction: row;
+    /*    justify-content:center; */
+  }
+  #viewResumeButton {
+    display: flex;
+    flex-direction: column;
+
+    background-color: #e71d36;
+    color: #ffffff;
+    line-height: 30px;
+    text-align: center;
+    padding: 10px;
+    flex-basis: 50%;
+  }
+
+  #viewPortfolioButton {
+    display: flex;
+    flex-direction: column;
+
+    background-color: #011526;
+    color: #ffffff;
+    line-height: 30px;
+    text-align: center;
+    padding: 10px;
+    flex-basis: 50%;
+  }
+  #redHorizontalLine {
+    width: 35px;
+    margin: 0px;
+    border-color: red;
+  }
+  
+  #mainContainer {
+    display: flex;
+  }
+  
+  #mainContainer #navWrapper {
+    background-color: #011526;
+    width: 30%;
+  }
+  
+  #mainContainer #mainWrapper {
+    background-color: #334352;
+    width: 70%;
+  }
