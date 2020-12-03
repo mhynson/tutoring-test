@@ -1,0 +1,206 @@
+body {
+    color: black;
+    background-color: #334352;
+  
+    margin: 0px;
+    font-family: "https://cdn.glitch.com/25892986-2081-4c23-a708-fa87b3010650%2FOswald%20(1).zip?v=1592145326318";
+  }
+  
+  h1,h2,h3,h4,h5,h6 {
+      font-family: "sans-serif";
+    }
+
+  
+  #container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 0px;
+  }
+  
+  #navWrapper {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    background-color: #115262;
+  }
+  
+  #innerContainer {
+    display: flex;
+    flex-direction: row;
+    height: 99999%;
+  }
+  
+  #divider {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 150px;
+    /* border-right: .5px solid grey; */
+  }
+  
+  #mainContainer {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #navContent {
+    display: flex;
+    flex-direction: column;
+    background-color: #011526;
+    width: 30%;
+    position: relative;
+  }
+  
+  #navContent p {
+    text-align: center;
+  }
+  
+  
+  #brandingImage {
+    width: 100px;
+  }
+  
+  #navLinks {
+    list-style-type: none;
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #navLinks a {
+    color: #ffffff;
+  }
+  
+  #mainWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 2%;
+    margin-top: 2%;
+  }
+  
+  #greetingTag {
+    color: red;
+  }
+  
+  /*#redHorizontalRule { 
+  }*/
+  
+  .redHorizontalLine {
+    width: 35px;
+    border-color: red;
+    margin: 0;
+  }
+  
+  #TheTechCoachHeading {
+    font-size: 12px;
+  }
+  
+  #aboutSubtext {
+    font-size: 12px;
+  }
+  
+  #resumeSubtext {
+    font-size: 12px;
+  }
+  
+  #portfolioSubtext {
+    font-size: 12px;
+  }
+  
+  .image-wrapper {
+    width: 40px;
+    height: 40px;
+    border: 1px solid red;
+  }
+  
+  .image-wrapper img {
+    max-width: 100%;
+  }
+  
+  #headshotImage {
+    width: 300px;
+  }
+  
+  #greetingWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+  }
+  
+  #greetingDiv {
+    padding-left: 15px;
+  }
+  
+  #viewAssetsWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  #viewResumeButtom {
+    display: flex;
+    flex-direction: row;
+  
+    background-color: #e71d36;
+    color: #ffffff;
+    line-height: 30px;
+    text-align: center;
+    padding: 10px;
+    flex-basis: 50%;
+  }
+  
+  #viewPortfolioButtom {
+    display: flex;
+    flex-direction: row;
+  
+    background-color: #011526;
+    color: #ffffff;
+    line-height: 30px;
+    text-align: center;
+    padding: 10px;
+    flex-basis: 50%;
+  }
+  
+  #aboutUsWrapper {
+    background-color: white;
+    color: black;
+    padding-left: 15px;
+  }
+  
+  #resumeWrapper {
+    background-color: white;
+    color: black;
+    padding-left: 15px;
+  }
+  
+  #portfolioWrapper {
+    background-color: white;
+    color: black;
+    padding-left: 15px;
+  }
+  
+  #assetthumbnailImage {
+    width: 50%;
+  }
+  
+  /* .social-media-icons {
+    display: flex;
+  }
+   */
+  
+  .social-media-icons .image-wrapper {
+    display: inline-block;
+  }
+  
+  .social-media-icons {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
